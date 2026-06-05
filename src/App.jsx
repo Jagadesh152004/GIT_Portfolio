@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import Applayout from "./components/Applayout";
 import Resume from "./pages/Resume";
+import Service from "./pages/Service";
 
 const App = () => {
 const router = createBrowserRouter([
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path:"/resume",
     element:<Resume />
+  },
+
+  {
+    path:"/service",
+    element:<Service />
   },
 ],
   },

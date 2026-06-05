@@ -23,6 +23,9 @@ const NavBar = () => {
           <NavLink to="/skills" className={navLinkStyle}>Skills</NavLink>
         </li>
         <li>
+          <NavLink to="/projects" className={navLinkStyle}>Projects</NavLink>
+        </li>
+        <li>
           <NavLink to="/projects" className={navLinkStyle}>Others</NavLink>
         </li>
         <li>

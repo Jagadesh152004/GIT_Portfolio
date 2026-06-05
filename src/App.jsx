@@ -5,6 +5,7 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import Applayout from "./components/Applayout";
+import Resume from "./pages/Resume";
 
 const App = () => {
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     {
     path:"/contact",
     element:<Contact />
+  },
+  {
+    path:"/resume",
+    element:<Resume />
   },
 ],
   },

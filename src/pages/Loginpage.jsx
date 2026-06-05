@@ -31,7 +31,7 @@ const inputstyle = "border border-white/30 rounded-3xl w-full mb-2.5 bg-transpar
         </form>
       </div>
     </div>
-  ); 
+  );
 };
 
 export default Loginpage;

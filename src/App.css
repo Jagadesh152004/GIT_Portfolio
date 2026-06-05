@@ -13,12 +13,14 @@
   cursor: pointer;
 }
 
+
+/* this is for floating a photo*/
 @keyframes float {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(-15px);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(5px);
   }
 }
 .animate-float {

@@ -3,15 +3,15 @@ import { useState } from "react"
 
 const ProfileImage = () => {
 
-  const[image,setImage] = useState("/img/profile2.png")
+  const[image,setImage] = useState("/img/JAGA1_GPT.webp")
 
 
   return (
     <img
     src={image}
     alt="Profile"
-    onMouseOver={() => setImage("/img/Profile1.png")}
-    onMouseOut={() => setImage("/img/profile2.png")}
+    onMouseOver={() => setImage("/img/JAGA1_GPT.webp")}
+    onMouseOut={() => setImage("/img/JAGA2_GPT.webp")}
     className="w-80 h-80 object-cover object-top
 border-4 border-cyan-400 rounded-full
 transition-all duration-500 ease-in-out

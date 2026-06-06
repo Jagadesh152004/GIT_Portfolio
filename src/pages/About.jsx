@@ -7,7 +7,37 @@ import { Element } from "react-scroll";
 const About = () => {
   return (
     <Element name="about">
+        {/* GoBack Button */}
+        <Link
+          to="about"
+          smooth={true}
+          duration={800}
+          className="
+            fixed
+            bottom-6
+            right-6
+            z-50
+            bg-white/10
+            backdrop-blur-md
+            border-2
+            border-cyan-400
+            text-cyan-400
+            px-4
+            py-2
+            rounded-full
+            shadow-[0_0_15px_#22d3ee]
+            hover:shadow-[0_0_30px_#22d3ee]
+            hover:scale-110
+            transition-all
+            duration-300
+            font-medium
+          "
+        >
+          ← Go Back
+        </Link>
+
       <div className="bg-gradient-to-r from-slate-900 to-purple-950 w-full flex flex-col overflow-hidden">
+
         {/* this page is for about */}
         <div className="min-h-screen flex flex-col justify-center items-center ">
           {/* Header */}

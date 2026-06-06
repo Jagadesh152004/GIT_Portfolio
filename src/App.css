@@ -26,3 +26,20 @@
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+
+
+@keyframes Back {
+  from {
+    color: rgb(17, 16, 16);
+    background-color: rgb(192, 204, 23);
+  }
+  to {
+    color: rgb(14, 13, 13);
+    background-color: rgb(223, 133, 15);
+  }
+}
+
+.neon-GoBack {
+  animation: Back 1s ease infinite alternate;
+  cursor: pointer;
+}

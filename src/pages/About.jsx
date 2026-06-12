@@ -42,8 +42,8 @@ const About = () => {
         <div className="min-h-screen flex flex-col justify-center items-center ">
           {/* Header */}
           <h1 className="font-[poppins] text-5xl font-bold mb-10">
-            <span className="text-yellow-300">About</span>{" "}
-            <span className="text-white">Me</span>
+            <span className="text-cyan-200">About</span>{" "}
+            <span className="text-cyan-200">Me</span>
           </h1>
 
           {/* main of the about page */}

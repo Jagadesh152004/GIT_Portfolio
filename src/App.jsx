@@ -5,7 +5,7 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import Applayout from "./components/Applayout";
-import Resume from "./pages/Resume";
+import Resume from "./components/Resume";
 import Service from "./pages/Service";
 
 const App = () => {

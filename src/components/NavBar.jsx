@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "/src/App.css";
-import DropDown from "../pages/DropDown";
+import DropDown from "../components/DropDown";
 
 const NavBar = () => {
 

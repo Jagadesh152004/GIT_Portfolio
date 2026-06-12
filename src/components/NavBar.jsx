@@ -12,7 +12,7 @@ const NavBar = () => {
         }`;
 
   return (
-    <div className="sticky top-0 z-40 flex items-center justify-between w-full px-5 py-3 m-auto bg-black border-b-2 border-sky-600 overflow-x-hidden" >
+    <div className="sticky top-0 z-50 flex items-center justify-between w-full px-5 py-3 m-auto bg-black border-b-2 border-sky-600" >
       <h1 className="neon-text text-2xl font-['poppins'] font-medium text-white neon-text">Portfolio.</h1>
       <ul className="flex items-center justify-center gap-4 font-semibold text-white cursor-pointer">
         <li>
@@ -28,7 +28,7 @@ const NavBar = () => {
           <NavLink to="/projects" className={navLinkStyle}>Projects</NavLink>
         </li>
         <li>
-          <DropDown className={navLinkStyle}/>
+          <DropDown />
         </li>
         <li>
           <NavLink to="/contact" className={navLinkStyle}>Contact</NavLink>

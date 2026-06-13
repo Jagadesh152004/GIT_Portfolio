@@ -15,11 +15,11 @@ const Certificate = () => {
 
       {/* Infosys */}
 
-      <Image src="/public/Certificate/imresizer-Infosys-JAVA-JAGADESH_.webp" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
+      <Image src="/Certificate/imresizer-Infosys-JAVA-JAGADESH_.webp" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
 
       {/* Infosys azure */}
 
-      <Image src="/Certificate/Infosys_AZURE AI _ JAGA.webp" alt="Azure Ai" name="Infosys - Azure AI"/>
+      <Image src="/Certificate/imresizer-Infosys_AZURE AI _ JAGA.webp" alt="Azure Ai" name="Infosys - Azure AI"/>
 
       {/* Udemy JAVA */}
 
@@ -27,11 +27,11 @@ const Certificate = () => {
 
       {/*Smart Yugam Java*/}
 
-      <Image src="/public/Certificate/imresizer-Java - Smart Yugam Academy - Copy.webp" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
+      <Image src="/Certificate/imresizer-Java - Smart Yugam Academy - Copy.webp" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
 
       {/* Oracle Ai */}
 
-      <Image src="/Certificate/Oracle_Jagadesh.webp" alt="Oracle Ai" name="Oracle - Cloud Infrastruture AI"/>
+      <Image src="/Certificate/imresizer-Oracle_Jagadesh.webp" alt="Oracle Ai" name="Oracle - Cloud Infrastruture AI"/>
 
       {/*SimpleLearn - Java*/}
 
@@ -47,15 +47,15 @@ const Certificate = () => {
 
       {/*  programming Hub - ChatGPT*/}
 
-      <Image src="/Certificate/JAGADESHWARAN_CHATGPT.webp" alt="ChatGpt" name="programming Hub - ChatGPT"/>
+      <Image src="/Certificate/imresizer-JAGADESHWARAN_CHATGPT.webp" alt="ChatGpt" name="programming Hub - ChatGPT"/>
 
       {/*  programming Hub - Html*/}
 
-      <Image src="/Certificate/JAGADESWARAN R_HTML.webp" alt="HTML" name="programming Hub - HTML_Basics"/>
+      <Image src="/Certificate/imresizer-JAGADESWARAN R_HTML.webp" alt="HTML" name="programming Hub - HTML_Basics"/>
 
       {/*  programming Hub - Html Advanced*/}
 
-      <Image src="/Certificate/JAGADESWARAN R_HTML Advanced.webp" alt="HTML Advanced" name="programming Hub - HTML_Advanced"/>
+      <Image src="/Certificate/imresizer-JAGADESWARAN R_HTML Advanced.webp" alt="HTML Advanced" name="programming Hub - HTML_Advanced"/>
 
 
       {/*  programming Hub - java Basics*/}

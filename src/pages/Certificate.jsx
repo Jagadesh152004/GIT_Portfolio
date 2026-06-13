@@ -15,60 +15,60 @@ const Certificate = () => {
 
       {/* Infosys */}
 
-      <Image src="/public/Certificate/Infosys-JAVA-JAGADESH_.jpg" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
+      <Image src="/Certificate/Infosys-JAVA-JAGADESH_.webp" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
 
       {/* Infosys azure */}
 
-      <Image src="/public/Certificate/Infosys_AZURE AI _ JAGA.jpg" alt="Azure Ai" name="Infosys - Azure AI"/>
+      <Image src="/Certificate/Infosys_AZURE AI _ JAGA.webp" alt="Azure Ai" name="Infosys - Azure AI"/>
 
       {/* Udemy JAVA */}
 
-      <Image src="/public/Certificate/Udemy-JAVA-JAGADESh .jpg" alt="Udemy JAVA" name="Udemy - JAVA Programming Mastery"/>
+      <Image src="/Certificate/Udemy-JAVA-JAGADESh .webp" alt="Udemy JAVA" name="Udemy - JAVA Programming Mastery"/>
 
       {/*Smart Yugam Java*/}
 
-      <Image src="/public/Certificate/Java - Smart Yugam Academy.jpg" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
+      <Image src="/Certificate/Java - Smart Yugam Academy.webp" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
 
       {/* Oracle Ai */}
 
-      <Image src="/public/Certificate/orcale Jagadeshwaran.jpg" alt="Oracle Ai" name="Oracle - Cloud Infrastruture AI"/>
+      <Image src="/Certificate/Oracle_Jagadesh.webp" alt="Oracle Ai" name="Oracle - Cloud Infrastruture AI"/>
 
       {/*SimpleLearn - Java*/}
 
-      <Image src="/public/Certificate/Simplilearn JAVA_Certificate.jpg" alt="Excel" name="SimpleLearn - JAVA"/>
+      <Image src="/Certificate/Simplilearn JAVA_Certificate.webp.webp" alt="Excel" name="SimpleLearn - JAVA"/>
 
       {/* SoloLearn JAVA */}
 
-      <Image src="/public/Certificate/introduction to java - sololearn.pdf.jpg" alt="SoloLearn JAVA" name="SoloLearn - Introduction to Java"/>
+      <Image src="/Certificate/introduction to java - sololearn.pdf.webp" alt="SoloLearn JAVA" name="SoloLearn - Introduction to Java"/>
       
       {/* CoddyTeam JS */}
 
-      <Image src="/public/Certificate/Introduction of JS.jpg" alt="CoddyTeam" name="CoddyTeam - Introduction to JS"/>
+      <Image src="/Certificate/Introduction of JS.webp" alt="CoddyTeam" name="CoddyTeam - Introduction to JS"/>
 
       {/*  programming Hub - ChatGPT*/}
 
-      <Image src="/public/Certificate/JAGADESHWARAN_CHATGPT.jpg" alt="ChatGpt" name="programming Hub - ChatGPT"/>
+      <Image src="/Certificate/JAGADESHWARAN_CHATGPT.webp" alt="ChatGpt" name="programming Hub - ChatGPT"/>
 
       {/*  programming Hub - Html*/}
 
-      <Image src="/public/Certificate/JAGADESWARAN R_HTML.jpg" alt="HTML" name="programming Hub - HTML_Basics"/>
+      <Image src="/Certificate/JAGADESWARAN R_HTML.webp" alt="HTML" name="programming Hub - HTML_Basics"/>
 
       {/*  programming Hub - Html Advanced*/}
 
-      <Image src="/public/Certificate/JAGADESWARAN R_HTML Advanced.jpg" alt="HTML Advanced" name="programming Hub - HTML_Advanced"/>
+      <Image src="/Certificate/JAGADESWARAN R_HTML Advanced.webp" alt="HTML Advanced" name="programming Hub - HTML_Advanced"/>
 
 
       {/*  programming Hub - java Basics*/}
 
-      <Image src="/public/Certificate/JAVA Basics.jpg" alt="HTML" name="programming Hub - JAVA_Basics"/>
+      <Image src="/Certificate/JAVA Basics.webp" alt="HTML" name="programming Hub - JAVA_Basics"/>
       
       {/*Great Learning*/}
 
-      <Image src="/public/Certificate/JAGADESHWARAN_GREAT LEARNING.jpg" alt="Excel" name="Great_Learning - Excel"/>
+      <Image src="/Certificate/JAGADESHWARAN_GREAT LEARNING.webp" alt="Excel" name="Great_Learning - Excel"/>
       
       {/* Accent Intern */}
 
-      <Image src="/public/Certificate/Intern certificate.jpg" alt="React.js Intern" name="Accent Soft - React.js Intern"/>
+      <Image src="/Certificate/Jagadeshwaran Intern certificate.webp" alt="React.js Intern" name="Accent Soft - React.js Intern"/>
 
 
     </div>

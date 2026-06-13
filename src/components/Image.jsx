@@ -2,7 +2,7 @@ import React from 'react'
 
 const Image = (props) => {
   return (
-          <div className="bg-black border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] 
+          <div className="bg-black border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_15px_#22d3ee] 
       hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
         <img
           src={props.src}

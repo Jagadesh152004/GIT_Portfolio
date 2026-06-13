@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { TiArrowDown } from "react-icons/ti";
 import PubCertificate from "../components/PubCertificate";
@@ -7,6 +6,12 @@ import Footer from "../components/Footer";
 
 
 const Publication = () => {
+
+  //map method for list rendering
+
+const dataArray = ["EfficientNet-B0","Transfer Learning","AdamW Optimizer","CNN","LLM","RAG","NER","CDSS"]
+const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
+
   return (
     <div className="min-h-screen bg-gradient-to-r from-slate-900 to-purple-950 flex flex-col justify-center items-center">
       <h1 className="text-5xl font-bold text-cyan-300 mt-10">
@@ -19,11 +24,11 @@ const Publication = () => {
         Published Research Project – 2026
       </p>
       <div className="flex flex-col">
+
         {/* Container for cards */}
         <div className="flex justify-center items-center p-5 mt-10 gap-8">
           <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-950 to-blue-700 rounded-2xl shadow-[0_0_25px_#22d3ee]">
             <h1 className="text-3xl font-bold text-white  border-b-5 rounded-b-xs max-w-85 p-2 ">
-              {" "}
               📄 Publication Details
             </h1>
             <h1 className="mt-4 text-2xl font-semibold text-amber-400">
@@ -33,27 +38,22 @@ const Publication = () => {
               </span>
             </h1>
             <span className="text-2xl text-amber-50 ml-35 font-semibold font-[poppins] mt-1">
-              {" "}
               for Diagnosing and Monitoring
             </span>
 
-            <h1 className="text-center text-2xl font-bold text-cyan-500 mt-5">
-              Authors :{" "}
+            <h1 className="text-center text-2xl font-bold text-yellow-400 mt-5">
+              Team Members :
             </h1>
-            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
-              {" "}
+            <p className="text-center mt-2 text-stone-300 text-xl font-semibold"> 
               Jagadeshwaran R
             </p>
-            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
-              {" "}
+            <p className="text-center mt-2 text-stone-300 text-xl font-semibold"> 
               Vignesh S
             </p>
-            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
-              {" "}
+            <p className="text-center mt-2 text-stone-300 text-xl font-semibold"> 
               Suthirvelan P
             </p>
-            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
-              {" "}
+            <p className="text-center mt-2 text-stone-300 text-xl font-semibold"> 
               Vetriselvan T
             </p>
 
@@ -94,53 +94,51 @@ const Publication = () => {
 
           <div className="h-[680px] ml-4">
             <div className="flex flex-col gap-y-10">
-              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-700 rounded-2xl max-w-xl shadow-[0_0_25px_#22d3ee]">
-                <h1 className="text-white text-2xl font-semibold mb-3 border-b-4 max-w-45 rounded-b-xs pb-3">
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-800 to-blue-800 rounded-2xl max-w-xl shadow-[0_0_25px_#22d3ee]">
+                <h1 className="text-yellow-300 text-2xl font-bold font-serif mb-3 border-b-4 max-w-55 rounded-b-xs pb-3">
                   📝 Description
                 </h1>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                   Published a research paper on an AI-powered healthcare
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                   assistant that integrates medical image diagnosis,
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                   symptom analysis, prescription generation, and sleep
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
-                  {" "}
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                   monitoring into a unified platform. The system Artificial
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
-                  Intelligence, Machine Learning,and Generative AI{" "}
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
+                  Intelligence, Machine Learning,and Generative AI
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                   technologies to support accurate healthcare decision-making
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans ">
-                  {" "}
+                <span className="text-xl text-stone-300 font-semibold font-sans ">
                 </span>
               </div>
 
-              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-700 rounded-2xl max-w-xl text-2xl shadow-[0_0_25px_#22d3ee]">
-                <h1 className="text-white text-2xl font-semibold mb-3 border-b-4 max-w-70 rounded-b-xs pb-3">
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-800 to-blue-800 rounded-2xl max-w-xl text-2xl shadow-[0_0_25px_#22d3ee]">
+                <h1 className="text-yellow-300 text-2xl font-bold font-serif mb-3 border-b-4 max-w-70 rounded-b-xs pb-3 ">
                   🎯 Research Objective
                 </h1>
 
-                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                <span className="text-xl text-stone-300 font-semibold font-sans  ">
                   To develop an intelligent healthcare assistant capable of
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
-                  analyzing medical images, understanding patient symptoms,
+                <span className="text-xl text-stone-300 font-semibold font-sans  ">
+                  analyzing medical images, understanding patient 
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
-                  generating healthcare recommendations.The objective is to
+                <span className="text-xl text-stone-300 font-semibold font-sans  ">
+                  symptoms, generating healthcare recommendations.The 
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
-                  combine multiple AI-driven healthcare services into a{" "}
+                <span className="text-xl text-stone-300 font-semibold font-sans  ">
+                  objective is to combine multiple AI-driven healthcare 
                 </span>
-                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
-                  single platform that improves diagnostic efficiency.
+                <span className="text-xl text-stone-300 font-semibold font-sans  ">
+                  services into a single platform that improves diagnostic efficiency.
                 </span>
               </div>
 
@@ -172,66 +170,44 @@ const Publication = () => {
         {/* Teck Stack Section */}
         <div className="flex flex-col justify-center mt-10 mb-20 p-2 gap-y-6">
           {/* Technology */}
-          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-zinc-900 to-zinc-800 w-[1150px] shadow-[0_0_15px_#facc15]">
+          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-stone-text-stone-300 to-zinc-800 w-[1100px] shadow-[0_0_15px_#facc15]">
             <h1 className="text-2xl font-semibold text-white mt-1.5">
-              Technologies Used :{" "}
+              Technologies Used :
             </h1>
 
             <div className="flex justify-center gap-4 ml-4">
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                EfficientNet-B0
+
+              {dataArray.map((item,index) => (
+              
+              <section key={index} className="border-2 border-cyan-400 rounded-3xl px-2 py-2 text-center bg-stone-text-stone-300 text-cyan-400">
+                {item}
               </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                Transfer Learning
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                AdamW Optimizer
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                CNN
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                RNN
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                LLM
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                RAG
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                NER
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                CDSS
-              </section>
+              )
+              
+              )};
+
             </div>
           </div>
 
           {/* Development */}
-          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-zinc-900 to-zinc-800 max-w-2xl shadow-[0_0_15px_#facc15]">
+          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-stone-text-stone-300 to-zinc-800 max-w-[800px] shadow-[0_0_15px_#facc15]">
             <h1 className="text-2xl font-semibold text-white mt-1.5">
-              Development :{" "}
+              Development Used : 
             </h1>
 
-            <div className="flex justify-center flex-wrap gap-7 ml-4">
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                Python
+            <div className="flex justify-center gap-7 ml-4">
+            {dataDevelop.map( (list,index) => 
+            (
+              <section key={index} className="border-2 border-cyan-400 rounded-3xl px-3 py-2 text-center bg-stone-text-stone-300 text-cyan-400">
+                {list}
               </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                Flask
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                PyTorch
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                JSON
-              </section>
-              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
-                REST API
-              </section>
+            )
+            )};  
+            
             </div>
+          
           </div>
+        
         </div>
 
         {/* Navigation Button certificate */}

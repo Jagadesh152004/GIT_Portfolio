@@ -1,5 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
+import Image from '../components/Image'
 
 
 const Certificate = () => {
@@ -10,68 +11,65 @@ const Certificate = () => {
         Certificates
       </h1>
 
-    <div className='flex justify-center gap-8 border border-white mt-20 flex-wrap'>
-      <div className="bg-[#0d1117] border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
-        <img
-          src="/public/Certificate/Infosys-JAVA-JAGADESH_.jpg"
-          alt="Java Programming Fundamentals"
-          className="w-full h-80 object-cover rounded-4xl p-2"
-          />
-          <h1 className=" text-cyan-300 text-lg text-center mb-4">
-            Java Programming Fundamentals
-          </h1> 
-      </div>
+    <div className='flex justify-center gap-10 border border-white mt-20 flex-wrap'>
 
-      {/*  */}
-        <div className="bg-[#0d1117] border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
-        <img
-          src="/public/Certificate/Udemy-JAVA-JAGADESh .jpg"
-          alt="Udemy JAVA"
-          className="w-full h-80 object-cover rounded-4xl p-2"
-          />
-          <h1 className=" text-cyan-300 text-lg text-center mb-4">
-            Udemy - JAVA Programming Mastery 
-          </h1> 
-      </div>
+      {/* Infosys */}
 
-      {/*  */}
-      <div className="bg-[#0d1117] border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] 
-      hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
-        <img
-          src="/public/Certificate/introduction to java - sololearn.pdf.jpg"
-          alt="Udemy JAVA"
-          className="w-full h-80 object-cover rounded-4xl p-2"
-          />
-          <h1 className=" text-cyan-300 text-lg text-center mb-4">
-            SoloLearn - Introduction to Java
-          </h1> 
-      </div>
+      <Image src="/public/Certificate/Infosys-JAVA-JAGADESH_.jpg" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
 
-      {/*  */}
-      <div className="bg-[#0d1117] border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] 
-      hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
-        <img
-          src="/public/Certificate/Intern certificate.jpg"
-          alt="React.js Intern"
-          className="w-full h-80 object-cover rounded-4xl p-2"
-          />
-          <h1 className=" text-cyan-300 text-lg text-center mb-4">
-            Accent Soft - React.js Intern
-          </h1> 
-      </div>
+      {/* Infosys azure */}
 
-      {/*  */}
-      <div className="bg-[#0d1117] border border-cyan-400 rounded-3xl overflow-hidden shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_35px_#22d3ee] 
-      hover:-translate-y-2 transition-all duration-500 flex flex-col gap-y-4">
-        <img
-          src="/public/Certificate/Introduction of JS.jpg"
-          alt="React.js Intern"
-          className="w-full h-80 object-cover rounded-4xl p-2"
-          />
-          <h1 className=" text-cyan-300 text-lg text-center mb-4">
-            CoddyTeam - Introduction to JS
-          </h1> 
-      </div>
+      <Image src="/public/Certificate/Infosys_AZURE AI _ JAGA.jpg" alt="Azure Ai" name="Infosys - Azure AI"/>
+
+      {/* Udemy JAVA */}
+
+      <Image src="/public/Certificate/Udemy-JAVA-JAGADESh .jpg" alt="Udemy JAVA" name="Udemy - JAVA Programming Mastery"/>
+
+      {/*Smart Yugam Java*/}
+
+      <Image src="/public/Certificate/Java - Smart Yugam Academy.jpg" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
+
+      {/* Oracle Ai */}
+
+      <Image src="/public/Certificate/orcale Jagadeshwaran.jpg" alt="Oracle Ai" name="Oracle - Cloud Infrastruture AI"/>
+
+      {/*SimpleLearn - Java*/}
+
+      <Image src="/public/Certificate/Simplilearn JAVA_Certificate.jpg" alt="Excel" name="SimpleLearn - JAVA"/>
+
+      {/* SoloLearn JAVA */}
+
+      <Image src="/public/Certificate/introduction to java - sololearn.pdf.jpg" alt="SoloLearn JAVA" name="SoloLearn - Introduction to Java"/>
+      
+      {/* CoddyTeam JS */}
+
+      <Image src="/public/Certificate/Introduction of JS.jpg" alt="CoddyTeam" name="CoddyTeam - Introduction to JS"/>
+
+      {/*  programming Hub - ChatGPT*/}
+
+      <Image src="/public/Certificate/JAGADESHWARAN_CHATGPT.jpg" alt="ChatGpt" name="programming Hub - ChatGPT"/>
+
+      {/*  programming Hub - Html*/}
+
+      <Image src="/public/Certificate/JAGADESWARAN R_HTML.jpg" alt="HTML" name="programming Hub - HTML_Basics"/>
+
+      {/*  programming Hub - Html Advanced*/}
+
+      <Image src="/public/Certificate/JAGADESWARAN R_HTML Advanced.jpg" alt="HTML Advanced" name="programming Hub - HTML_Advanced"/>
+
+
+      {/*  programming Hub - java Basics*/}
+
+      <Image src="/public/Certificate/JAVA Basics.jpg" alt="HTML" name="programming Hub - JAVA_Basics"/>
+      
+      {/*Great Learning*/}
+
+      <Image src="/public/Certificate/JAGADESHWARAN_GREAT LEARNING.jpg" alt="Excel" name="Great_Learning - Excel"/>
+      
+      {/* Accent Intern */}
+
+      <Image src="/public/Certificate/Intern certificate.jpg" alt="React.js Intern" name="Accent Soft - React.js Intern"/>
+
 
     </div>
       

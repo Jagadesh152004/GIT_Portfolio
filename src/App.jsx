@@ -8,6 +8,8 @@ import Applayout from "./components/Applayout";
 import Resume from "./components/Resume";
 import Service from "./pages/Service";
 import Publication from "./pages/Publication";
+import Certificate from "./pages/Certificate";
+
 
 const App = () => {
 const router = createBrowserRouter([
@@ -44,9 +46,14 @@ const router = createBrowserRouter([
     path:"/service",
     element:<Service />
   },
-    {
+  
+  {
     path:"/publications",
     element:<Publication />
+  },
+  {
+    path:"/certificate",
+    element:<Certificate />
   },
 ],
   },

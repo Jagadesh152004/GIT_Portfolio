@@ -15,7 +15,7 @@ const Certificate = () => {
 
       {/* Infosys */}
 
-      <Image src="/Certificate/Infosys-JAVA-JAGADESH_.webp" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
+      <Image src="/public/Certificate/imresizer-Infosys-JAVA-JAGADESH_.webp" alt="Java Programming Fundamentals" name="Java Programming Fundamentals"/>
 
       {/* Infosys azure */}
 
@@ -27,7 +27,7 @@ const Certificate = () => {
 
       {/*Smart Yugam Java*/}
 
-      <Image src="/Certificate/Java - Smart Yugam Academy.webp" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
+      <Image src="/public/Certificate/imresizer-Java - Smart Yugam Academy - Copy.webp" alt="Smart Yugam Java" name="Smart Yugam Academy - Java"/>
 
       {/* Oracle Ai */}
 
@@ -64,7 +64,7 @@ const Certificate = () => {
       
       {/*Great Learning*/}
 
-      <Image src="/Certificate/JAGADESHWARAN_GREAT LEARNING.webp" alt="Excel" name="Great_Learning - Excel"/>
+      <Image src="/Certificate/imresizer-JAGADESHWARAN_GREAT LEARNING.webp" alt="Excel" name="Great_Learning - Excel"/>
       
       {/* Accent Intern */}
 

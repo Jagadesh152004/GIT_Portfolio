@@ -11,7 +11,7 @@ const PubCertificate = () => {
         </h2>
 
         <img
-          src="/public/publication/ConferenceCertificate.jpg"
+          src="/publication/ConferenceCertificate.jpg"
           alt="Publication Certificate"
           className="
                     w-[900px]

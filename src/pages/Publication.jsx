@@ -1,0 +1,271 @@
+import React from "react";
+import { Link } from "react-scroll";
+import { TiArrowDown } from "react-icons/ti";
+import PubCertificate from "../components/PubCertificate";
+import Footer from "../components/Footer";
+
+
+
+const Publication = () => {
+  return (
+    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-purple-950 flex flex-col justify-center items-center">
+      <h1 className="text-5xl font-bold text-cyan-300 mt-10">
+        📄 Research Publication
+      </h1>
+      <h1 className="text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-500 mt-20">
+        AI-Powered Multimodal Healthcare Assistant for Diagnosing and Monitoring
+      </h1>
+      <p className="text-2xl font-bold text-amber-300 mt-10">
+        Published Research Project – 2026
+      </p>
+      <div className="flex flex-col">
+        {/* Container for cards */}
+        <div className="flex justify-center items-center p-5 mt-10 gap-8">
+          <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-950 to-blue-700 rounded-2xl shadow-[0_0_25px_#22d3ee]">
+            <h1 className="text-3xl font-bold text-white  border-b-5 rounded-b-xs max-w-85 p-2 ">
+              {" "}
+              📄 Publication Details
+            </h1>
+            <h1 className="mt-4 text-2xl font-semibold text-amber-400">
+              Title:
+              <span className="ml-2 text-2xl text-white font-[poppins]">
+                AI-Powered Multimodal Healthcare Assistant
+              </span>
+            </h1>
+            <span className="text-2xl text-amber-50 ml-35 font-semibold font-[poppins] mt-1">
+              {" "}
+              for Diagnosing and Monitoring
+            </span>
+
+            <h1 className="text-center text-2xl font-bold text-cyan-500 mt-5">
+              Authors :{" "}
+            </h1>
+            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
+              {" "}
+              Jagadeshwaran R
+            </p>
+            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
+              {" "}
+              Vignesh S
+            </p>
+            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
+              {" "}
+              Suthirvelan P
+            </p>
+            <p className="text-center mt-2 text-zinc-900 text-xl font-semibold"> 
+              {" "}
+              Vetriselvan T
+            </p>
+
+            <h1 className="mt-4 text-2xl font-semibold text-yellow-400">
+              Institution:{" "}
+              <span className="text-white">Kathir College of Engineering</span>
+            </h1>
+            <h1 className="mt-4 text-2xl font-semibold text-yellow-400">
+              Department:{" "}
+              <span className="text-white">
+                Artificial Intelligence and Data Science
+              </span>
+            </h1>
+
+          <div className="flex justify-center">
+            <div className="bg-zinc-800 mt-5 max-w-md rounded-2xl p-4 border-2 border-cyan-400 flex flex-col gap-y-2">
+              <div className="flex justify-center">
+                <h1 className="text-center text-white text-2xl font-semibold mb-4 border-b-4 border-b-yellow-400 rounded-b-xs w-60 pb-3">
+                  Conference Details
+                </h1>
+              </div>
+              <h1 className="text-xl font-semibold text-yellow-400">
+                Conference:{" "}
+                <span className="text-white text-xl">ICA6NT 2026</span>
+              </h1>
+              <h1 className="text-xl font-semibold text-yellow-400">
+                Institution:{" "}
+                <span className="text-white text-xl">
+                  Velammal Institute of Technology
+                </span>
+              </h1>
+              <h1 className="text-xl font-semibold text-yellow-400">
+                Date: <span className="text-white text-xl">March 2026</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+
+          <div className="h-[680px] ml-4">
+            <div className="flex flex-col gap-y-10">
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-700 rounded-2xl max-w-xl shadow-[0_0_25px_#22d3ee]">
+                <h1 className="text-white text-2xl font-semibold mb-3 border-b-4 max-w-45 rounded-b-xs pb-3">
+                  📝 Description
+                </h1>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  Published a research paper on an AI-powered healthcare
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  assistant that integrates medical image diagnosis,
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  symptom analysis, prescription generation, and sleep
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  {" "}
+                  monitoring into a unified platform. The system Artificial
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  Intelligence, Machine Learning,and Generative AI{" "}
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  technologies to support accurate healthcare decision-making
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans ">
+                  {" "}
+                </span>
+              </div>
+
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-700 rounded-2xl max-w-xl text-2xl shadow-[0_0_25px_#22d3ee]">
+                <h1 className="text-white text-2xl font-semibold mb-3 border-b-4 max-w-70 rounded-b-xs pb-3">
+                  🎯 Research Objective
+                </h1>
+
+                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                  To develop an intelligent healthcare assistant capable of
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                  analyzing medical images, understanding patient symptoms,
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                  generating healthcare recommendations.The objective is to
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                  combine multiple AI-driven healthcare services into a{" "}
+                </span>
+                <span className="text-xl text-zinc-900 font-semibold font-sans  ">
+                  single platform that improves diagnostic efficiency.
+                </span>
+              </div>
+
+              <div className="flex justify-center gap-4">
+                <a
+                  href="/public/reports/PROJECT REPORT.pdf"
+                  target="_blank"
+                  target="_blank"
+                  className="bg-gradient-to-r from-blue-700 to-cyan-500 px-3 py-4 
+              rounded-lg text-sm font-semibold
+              hover:scale-105 cursor-pointer transition-all duration-300 ease-in-out 
+              shadow-[0_0_15px_#22d3ee] border-cyan-300 border"
+                >
+                  View Project Report
+                </a>
+
+                <a
+                  href="https://multimedicalgpt.netlify.app"
+                  target="_blank"
+                  className=" py-4 pr-3 pl-2 text-black bg-green-600 text-sm rounded-lg font-semibold
+              hover:scale-105 transition-all duration-300 shadow-[0_0_15px_#4ade80] border border-green-400 "
+                >
+                  🚀 Live Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Teck Stack Section */}
+        <div className="flex flex-col justify-center mt-10 mb-20 p-2 gap-y-6">
+          {/* Technology */}
+          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-zinc-900 to-zinc-800 w-[1150px] shadow-[0_0_15px_#facc15]">
+            <h1 className="text-2xl font-semibold text-white mt-1.5">
+              Technologies Used :{" "}
+            </h1>
+
+            <div className="flex justify-center gap-4 ml-4">
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                EfficientNet-B0
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                Transfer Learning
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                AdamW Optimizer
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                CNN
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                RNN
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                LLM
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                RAG
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                NER
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                CDSS
+              </section>
+            </div>
+          </div>
+
+          {/* Development */}
+          <div className="border-2 border-yellow-400 rounded-xl p-4 flex bg-gradient-to-r from-zinc-900 to-zinc-800 max-w-2xl shadow-[0_0_15px_#facc15]">
+            <h1 className="text-2xl font-semibold text-white mt-1.5">
+              Development :{" "}
+            </h1>
+
+            <div className="flex justify-center flex-wrap gap-7 ml-4">
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                Python
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                Flask
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                PyTorch
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                JSON
+              </section>
+              <section className="border-2 border-cyan-400 rounded-3xl px-2 py-3 text-center bg-zinc-900 text-cyan-400">
+                REST API
+              </section>
+            </div>
+          </div>
+        </div>
+
+        {/* Navigation Button certificate */}
+        <div className="flex justify-center p-2">
+          <Link
+            to="certificate"
+            smooth={true}
+            duration={800}
+            className="px-5 py-3 bg-yellow-400 text-black rounded-xl font-semibold
+                    cursor-pointer transition-all duration-700 transform animate-bounce 
+                    flex gap-2 hover:rounded-3xl hover:duration-100 shadow-[0_0_20px_#f59e0b]"
+          >
+            🏆 View Certificate 
+            <span className="text-2xl font-bold">
+              <TiArrowDown />
+            </span>
+          </Link>
+        </div>
+
+      </div>
+
+      {/*this is Certificae page*/}
+      <div className="flex flex-col justify-center items-center min-h-screen w-full mt-50">
+
+        <PubCertificate/>
+        
+        <div className="w-full mt-20">
+        <Footer />
+        </div>
+
+      </div>
+
+    </div>
+  );
+};
+
+export default Publication;

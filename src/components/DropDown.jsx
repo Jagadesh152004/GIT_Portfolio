@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {Link as LinkScroll} from "react-scroll"
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Dropdown = () => {
@@ -36,12 +37,13 @@ const Dropdown = () => {
             Services
           </Link>
 
-          <Link
-            to="/certificates"
+          <LinkScroll
+            to="certificate"
+            smo
             className={dropButton}
           >
             Certificates
-          </Link>
+          </LinkScroll>
         </div>
       )}
     </div>

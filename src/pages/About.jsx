@@ -39,7 +39,7 @@ const About = () => {
                 Building Full Stack with a strong product mindset.
               </h1>
 
-              <div className="text-gray-500 font-[poppins] text-lg p-6 ml-3 flex flex-col gap-y-4 max-w-4xl">
+              <div className="text-neutral-500 font-[poppins] text-lg p-6 ml-3 flex flex-col gap-y-4 max-w-4xl">
                 <span className="">
                   I'm an aspiring Java Full Stack Developer passionate about building modern web applications that solve real-world problems.
                 </span>
@@ -55,7 +55,7 @@ const About = () => {
                   I believe in writing clean, maintainable code and creating applications that provide both a great user experience and reliable 
                   performance.
                 </span>
-                <span className="text-center text-white font-mono max-w-2xl bg-cyan-950 p-3 rounded-3xl text-sm mt-4">
+                <span className="text-center text-white font-mono max-w-2xl bg-cyan-950 p-2 rounded-3xl text-sm mt-4 ">
                   "Every project I build is an opportunity to learn, improve, and move one step closer to becoming a better software developer."
                 </span>
               </div>
@@ -78,7 +78,7 @@ const About = () => {
 {/* Performance */}
               <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
 
-                <HiRocketLaunch className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+                <HiRocketLaunch className="text-cyan-400 text-3xl bg-cyan-900 h-10 w-10 rounded-md p-2"/>
 
                 <h1 className="text-white">Performance</h1>
 
@@ -88,7 +88,7 @@ const About = () => {
 {/* Colloboration */}
               <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
 
-                <HiUserGroup className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+                <HiUserGroup className="text-cyan-400 text-3xl bg-cyan-900 h-10 w-10 rounded-md p-2"/>
 
                 <h1 className="text-white">Colloboration</h1>
 
@@ -98,7 +98,7 @@ const About = () => {
 {/* Innovation */}
               <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
 
-                <HiLightBulb className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+                <HiLightBulb className="text-cyan-400 text-3xl bg-cyan-900 h-10 w-10 rounded-md p-2"/>
 
                 <h1 className="text-white">Innovation</h1>
 

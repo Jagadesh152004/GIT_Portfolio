@@ -11,6 +11,7 @@
     "debug": "node --inspect node_modules/vite/bin/vite.js"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/fiber": "^9.4.0",
     "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.1.11",

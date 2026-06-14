@@ -40,7 +40,7 @@ const HomePage = () => {
                 <PiGithubLogoFill className={icon}/>
               </a>
               <a
-                href="http://linkedin.com/in/jagadeswaran-r-0389a02a0"
+                href="https://www.linkedin.com/in/jaga15/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="visit my linkedin"

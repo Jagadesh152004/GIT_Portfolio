@@ -3,9 +3,9 @@ import ServiceFooter from "../components/ServiceFooter";
 import Footer from "../components/Footer";
 const Service = () => {
 
-const card = "p-5 flex flex-col bg-blue-950 transition-all duration-500 ease-in-out hover:-translate-y-5 hover:scale-105 border-2 border-cyan-400 rounded-2xl max-w-90 shadow-[0_0_10px_#22d3ee] hover:shadow-[0_0_50px_#22d3ee]"   
+const card = "p-5 flex flex-col bg-slate-800 transition-all duration-500 ease-in-out hover:-translate-y-5 hover:scale-105 border-2 border-cyan-400 rounded-2xl max-w-90 shadow-[0_0_10px_#22d3ee] hover:shadow-[0_0_50px_#22d3ee]"   
 
-const cardButton = "px-3 py-2 rounded-3xl bg-cyan-500/20 border border-cyan-400 text-cyan-300"
+const cardButton = "px-3 py-2 rounded-3xl  border border-cyan-400 text-cyan-300"
 
   return (
 <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-900">
@@ -16,7 +16,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-cyan-500/20 border border-cyan-400 
 {/* Container*/}
     <div className="flex flex-col justify-center items-center mt-2 p-5">
 
-        <h1 className="text-transparent bg-clip-text bg-linear-to-r from-amber-300 via-orange-400 to-red-500 text-3xl font-bold">
+        <h1 className="text-transparent bg-clip-text bg-linear-to-r from-stone-300 to-zinc-500 text-4xl font-bold">
           What Can I Do
         </h1>
         

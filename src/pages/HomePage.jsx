@@ -27,8 +27,9 @@ const HomePage = () => {
             Full Stack Developer
           </h1>
           <p className="text-neutral-400 font-[poppins] text-xl max-w-2xl w-auto ml-4 p-4 ">
-            Full Stack Developer focused on creating responsive and scalable web applications. 
-            Continuously learning and building projects using Java, Spring Boot, React.js, and MySQL.
+            I build responsive and scalable web applications with a focus on clean code and user 
+            experience.I continuously enhance my skills 
+            and create projects using Java, Spring Boot, React.js, and MySQL.
           </p>
           <div className="flex justify-center lg:justify-start">
             <div className="flex w-56 gap-10 p-4 text-4xl justify-evenly">

@@ -1,6 +1,6 @@
-import { FaEnvelope, FaLinkedinIn, FaMailchimp, FaPhone, FaTelegram } from "react-icons/fa"
-import { FaLocationDot, FaLocationPin, FaLocationPinLock } from "react-icons/fa6"
-import { SiGithub, SiLinkedin } from "react-icons/si"
+import { FaEnvelope, FaLinkedin, FaPhone } from "react-icons/fa"
+import { FaLocationDot } from "react-icons/fa6"
+import { SiGithub} from "react-icons/si"
 import Footer from "../components/Footer"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
@@ -86,7 +86,7 @@ const sendEmail = (e) => {
             </div>
           
             <div className="flex rounded-2xl">
-              <SiLinkedin className="text-cyan-400 text-xl mt-5 mr-5" />
+              <FaLinkedin className="text-cyan-400 text-xl mt-5 mr-5" />
               <div className="text-lg font-medium text-slate-400 space-y-2">
                 <h1>LinkedIn</h1>
                     <a

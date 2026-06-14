@@ -1,3 +1,5 @@
+
+import { FaCode } from "react-icons/fa";
 import ProfileImage from "../components/ProfileImage";
 import Courses from "./Courses";
 import Education from "./Education";
@@ -12,27 +14,8 @@ const About = () => {
           to="about"
           smooth={true}
           duration={800}
-          className="
-            fixed
-            bottom-6
-            right-6
-            z-50
-            bg-white/10
-            backdrop-blur-md
-            border-2
-            border-cyan-400
-            text-cyan-400
-            px-4
-            py-2
-            rounded-full
-            shadow-[0_0_15px_#22d3ee]
-            hover:shadow-[0_0_30px_#22d3ee]
-            hover:scale-110
-            transition-all
-            duration-300
-            font-medium
-          "
-        >
+          className="fixed bottom-6 right-6 z-50 bg-white/10 backdrop-blur-md border-2 border-cyan-400 text-cyan-400 px-4 py-2 rounded-full shadow-[0_0_15px_#22d3ee] hover:shadow-[0_0_30px_#22d3ee]
+                    hover:scale-110 transition-all duration-300 font-medium">
           ← Go Back
         </Link>
 
@@ -41,43 +24,42 @@ const About = () => {
         {/* this page is for about */}
         <div className="min-h-screen flex flex-col justify-center items-center ">
           {/* Header */}
-          <h1 className="font-[poppins] text-5xl font-bold mb-10">
+          <h1 className="font-[poppins] text-5xl font-bold">
             <span className="text-cyan-300">About</span>{" "}
             <span className="text-cyan-300">Me</span>
           </h1>
 
           {/* main of the about page */}
-          <div className="max-w-9/12 p-10 flex justify-between items-center gap-7">
-            <div className="flex items-center justify-center w-full lg:w-auto p-4">
-              <ProfileImage />
-            </div>
+          <div className="h-auto mt-10 p-10 flex justify-between items-center gap-7 border border-amber-500">
 
-            <div className="max-w-6xl p-5">
-              <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-red-800">
+            <div className="flex flex-col max-w-6xl border-2 border-cyan-400">
+              <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neutral-300 to-stone-400 max-w-3xl">
                 Building Full Stack with a strong product mindset.
               </h1>
 
-              <p className="text-gray-400 font-[poppins] text-2xl p-6 ml-2">
-                Full Stack Developer passionate about building modern, scalable,
-                and user-friendly web applications. Skilled in Java, Spring
-                Boot, React.js, JavaScript, HTML, CSS, Tailwind CSS, MySQL, and
-                REST API development. Experienced in creating full-stack
-                projects that combine responsive frontend interfaces with
-                efficient backend systems. Continuously learning new
-                technologies and improving problem-solving skills to deliver
-                high-quality software solutions.
-              </p>
-
-              <div className="mt-5 h-14 flex justify-evenly items-center w-60">
-                <Link
-                  to="course"
-                  smooth={true}
-                  duration={800}
-                  className="text-black text-xs font-[poppins] bg-cyan-400 pr-3 pl-3 pt-2 pb-2 font-semibold hover:rounded-full hover:transition-all hover:transform hover:scale-110 hover:duration-500 cursor-pointer bg-gradient-to-r hover:from-cyan-400 hover:to-blue-800 hover:ease-in-out hover:shadow-[0px_0px_10px_#06b6d4] rounded-md shadow-[0px_0px_10px_#06b6d4]"
-                >
-                  Courses
-                </Link>
-
+              <div className="text-gray-500 font-[poppins] text-lg p-6 ml-3 flex flex-col gap-y-4 max-w-4xl">
+                <span className="">
+                  I'm an aspiring Java Full Stack Developer passionate about building modern web applications that solve real-world problems.
+                </span>
+                <span>
+                  I enjoy creating responsive and user-friendly interfaces with React.js, JavaScript, Tailwind CSS, HTML, and CSS, while developing 
+                  robust backend systems using Java, Spring Boot, MySQL, and REST APIs.
+                </span>
+                <span>
+                  My journey in software development started with curiosity about how applications work behind the scenes. Since then, I've been 
+                  continuously learning, building projects, and strengthening my problem-solving skills through hands-on development.
+                </span>
+                <span>
+                  I believe in writing clean, maintainable code and creating applications that provide both a great user experience and reliable 
+                  performance.
+                </span>
+                <span className="text-center text-white font-mono max-w-2xl bg-cyan-950 p-3 rounded-3xl text-sm">
+                  "Every project I build is an opportunity to learn, improve, and move one step closer to becoming a better software developer."
+                </span>
+              </div>
+              
+              <div className="h-14 flex justify-center items-center">
+                <div className="space-x-10 ">
                 <Link
                   to="education"
                   smooth={true}
@@ -86,8 +68,33 @@ const About = () => {
                 >
                   🎓 Education
                 </Link>
+
+                <Link
+                  to="course"
+                  smooth={true}
+                  duration={800}
+                  className="text-black text-xs font-[poppins] bg-cyan-400 pr-3 pl-3 pt-2 pb-2 font-semibold hover:rounded-full hover:transition-all hover:transform hover:scale-110 hover:duration-500 cursor-pointer bg-gradient-to-r hover:from-cyan-400 hover:to-blue-800 hover:ease-in-out hover:shadow-[0px_0px_10px_#06b6d4] rounded-md shadow-[0px_0px_10px_#06b6d4]"
+                >
+                  Courses
+                </Link>
+                </div>
               </div>
             </div>
+
+            <div className="flex flex-wrap items-start border border-amber-50 p-2">
+{/* Code */}
+              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 space-y-3 rounded-2xl" >
+
+                <FaCode className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+
+                <h1 className="text-white">Clean Code</h1>
+
+                <p>Writing maintainable,scalable code that stands the test of time</p>
+
+              </div>
+              
+            </div>
+
           </div>
         </div>
 

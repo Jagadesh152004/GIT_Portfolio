@@ -1,5 +1,5 @@
-import { FaJava, FaReact } from "react-icons/fa";
-import { SiCss3, SiFirebase, SiGit, SiGithub, SiGithubpages, SiHtml5, SiIntellijidea, SiJavascript, SiMongodb, SiMysql, SiNetflix, SiNetlify, SiNodedotjs, SiPostgresql, SiPostman, SiRailway, SiRender, SiSpringboot, SiTailwindcss, SiVercel, SiVsco, SiVscodium } from "react-icons/si";
+import { FaCss3, FaJava, FaReact } from "react-icons/fa";
+import {SiFirebase, SiGit, SiGithub, SiGithubpages, SiHtml5, SiIntellijidea, SiJavascript, SiMongodb, SiMysql, SiNetflix, SiNetlify, SiNodedotjs, SiPostgresql, SiPostman, SiRailway, SiRender, SiSpringboot, SiTailwindcss, SiVercel, SiVsco, SiVscodium } from "react-icons/si";
 import Footer from "../components/Footer"
 
 const Skills = () => {
@@ -39,7 +39,7 @@ const Skills = () => {
             <SiHtml5 className="text-amber-600 mr-2 mt-1"/> HTML
           </div>
           <div className="flex text-slate-400 text-xl font-medium border border-slate-400 rounded-3xl px-3 py-2 ">
-            <SiCss3 className="text-purple-800 mr-2 mt-1"/> CSS
+            <FaCss3 className="text-purple-800 mr-2 mt-1"/> CSS
           </div>
           <div className="flex text-slate-400 text-xl font-medium border border-slate-400 rounded-3xl px-3 py-2 ">
             <SiTailwindcss className="text-cyan-600 mr-2 mt-1"/> Tailwind CSS

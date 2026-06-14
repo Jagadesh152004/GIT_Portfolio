@@ -1,10 +1,12 @@
 
+import {HiRocketLaunch,HiUserGroup,HiLightBulb} from "react-icons/hi2";
 import { FaCode } from "react-icons/fa";
 import ProfileImage from "../components/ProfileImage";
 import Courses from "./Courses";
 import Education from "./Education";
 import { Link } from "react-scroll";
 import { Element } from "react-scroll";
+import { FaBoltLightning } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -19,10 +21,10 @@ const About = () => {
           ← Go Back
         </Link>
 
-      <div className="bg-gradient-to-r from-slate-900 to-slate-900 w-full flex flex-col overflow-hidden">
+      <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-900 w-full flex flex-col overflow-hidden">
 
         {/* this page is for about */}
-        <div className="min-h-screen flex flex-col justify-center items-center ">
+        <div className=" flex flex-col justify-center items-center mt-20 gap-y-2">
           {/* Header */}
           <h1 className="font-[poppins] text-5xl font-bold">
             <span className="text-cyan-300">About</span>{" "}
@@ -30,9 +32,9 @@ const About = () => {
           </h1>
 
           {/* main of the about page */}
-          <div className="h-auto mt-10 p-10 flex justify-between items-center gap-7 border border-amber-500">
+          <div className="mt-20 flex justify-between items-center gap-x-4">
 
-            <div className="flex flex-col max-w-6xl border-2 border-cyan-400">
+            <div className="flex flex-col max-w-6xl">
               <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neutral-300 to-stone-400 max-w-3xl">
                 Building Full Stack with a strong product mindset.
               </h1>
@@ -53,13 +55,63 @@ const About = () => {
                   I believe in writing clean, maintainable code and creating applications that provide both a great user experience and reliable 
                   performance.
                 </span>
-                <span className="text-center text-white font-mono max-w-2xl bg-cyan-950 p-3 rounded-3xl text-sm">
+                <span className="text-center text-white font-mono max-w-2xl bg-cyan-950 p-3 rounded-3xl text-sm mt-4">
                   "Every project I build is an opportunity to learn, improve, and move one step closer to becoming a better software developer."
                 </span>
               </div>
               
-              <div className="h-14 flex justify-center items-center">
-                <div className="space-x-10 ">
+            </div>
+
+            <div className="flex justify-start items-start h-[600px] w-[700px] p-2 " >
+
+              <div className=" flex flex-wrap gap-x-6 gap-y-4 w-[700px] h-[450px] p-2">
+{/* Code */}
+              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
+
+                <FaCode className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+
+                <h1 className="text-white">Clean Code</h1>
+
+                <p>Writing maintainable,scalable code that stands the test of time</p>
+
+              </div>
+{/* Performance */}
+              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
+
+                <HiRocketLaunch className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+
+                <h1 className="text-white">Performance</h1>
+
+                <p>Optimizing for speed and delivering lightining fast user experience</p>
+
+              </div>
+{/* Colloboration */}
+              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
+
+                <HiUserGroup className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+
+                <h1 className="text-white">Colloboration</h1>
+
+                <p>Working closely with teams to bring ideas to future</p>
+
+              </div>
+{/* Innovation */}
+              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 h-50 space-y-5 rounded-2xl" >
+
+                <HiLightBulb className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
+
+                <h1 className="text-white">Innovation</h1>
+
+                <p>Staying ahead with the latest technologies and best practices.</p>
+
+              </div>
+              
+              </div>
+            </div>
+          </div>
+          {/* Button For Education & Courses */}
+            <div className="h-14 flex justify-center items-center">
+              <div className="space-x-10 ">
                 <Link
                   to="education"
                   smooth={true}
@@ -78,24 +130,7 @@ const About = () => {
                   Courses
                 </Link>
                 </div>
-              </div>
             </div>
-
-            <div className="flex flex-wrap items-start border border-amber-50 p-2">
-{/* Code */}
-              <div className="flex flex-col bg-cyan-950 text-ms text-zinc-400 font-medium p-4 w-80 space-y-3 rounded-2xl" >
-
-                <FaCode className="text-cyan-400 text-3xl bg-cyan-800 h-10 w-10 rounded-md p-2"/>
-
-                <h1 className="text-white">Clean Code</h1>
-
-                <p>Writing maintainable,scalable code that stands the test of time</p>
-
-              </div>
-              
-            </div>
-
-          </div>
         </div>
 
         {/*this is eduaction page*/}

@@ -13,14 +13,12 @@ const dataArray = ["EfficientNet-B0","Transfer Learning","AdamW Optimizer","CNN"
 const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-purple-950 flex flex-col justify-center items-center">
+    <div className="min-h-screen bg-gradient-to-r  from-slate-900 to-slate-900  flex flex-col justify-center items-center">
       <h1 className="text-5xl font-bold text-cyan-300 mt-10">
         📄 Research Publication
       </h1>
-      <h1 className="text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-500 mt-20">
-        AI-Powered Multimodal Healthcare Assistant for Diagnosing and Monitoring
-      </h1>
-      <p className="text-2xl font-bold text-amber-300 mt-10">
+
+      <p className="text-2xl font-bold text-amber-300 mt-20">
         Published Research Project – 2026
       </p>
       <div className="flex flex-col">

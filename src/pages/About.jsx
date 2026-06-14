@@ -36,7 +36,7 @@ const About = () => {
           ← Go Back
         </Link>
 
-      <div className="bg-gradient-to-r from-slate-900 to-purple-950 w-full flex flex-col overflow-hidden">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-900 w-full flex flex-col overflow-hidden">
 
         {/* this page is for about */}
         <div className="min-h-screen flex flex-col justify-center items-center ">

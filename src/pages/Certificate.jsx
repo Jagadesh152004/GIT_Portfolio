@@ -75,7 +75,7 @@ const Certificate = () => {
 
   return (
 
-    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-purple-950 flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-900 flex flex-col items-center">
       <h1 className="text-5xl font-bold text-cyan-300 mt-20 ">Certificates</h1>
 
       <div className="flex justify-center gap-10 mt-20 flex-wrap">

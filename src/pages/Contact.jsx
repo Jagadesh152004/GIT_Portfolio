@@ -59,7 +59,7 @@ const sendEmail = (e) => {
             <h className="text-zinc-500 text-xl font-semibold font-mono">Let's connect and build something amazing together.</h>
           </div>
 {/* Right side - contact Details */}
-          <div className="flex flex-col justify-center items-start mt-15 gap-y-10">
+          <div className="flex flex-col justify-center items-start mt-10 gap-y-10">
 
             <div className="flex rounded-2xl">
               <FaEnvelope className="text-cyan-400 text-xl mt-5 mr-5" />

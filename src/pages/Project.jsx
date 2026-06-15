@@ -221,7 +221,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
             </div>
             <div className="flex w-100 p-2 mt-4 gap-3">
               <a className="flex justify-center gap-2 text-white text-ms bg-zinc-700 w-45 p-2 rounded-2xl"
-              href="https://github.com/Jagadesh152004/Recipe_Finder.git"
+              href="https://github.com/Jagadesh152004/Food-Recipe-App.git"
               target="_blank" 
               >
                 <FaGithub className="mt-1"/> Code

@@ -18,7 +18,7 @@ const Skills = () => {
     <div className="flex justify-center items-center flex-wrap mt-15 p-3 gap-x-10 gap-y-10">
 
 {/* Front End */}
-      <div className="flex flex-col items-center border-2 border-cyan-300 rounded-2xl bg-gradient-to-r from-slate-800 to-slate-800 p-3 shadow-[0_0_15px_#22d3ee] 
+      <div className="flex flex-col items-center border-2 border-cyan-300 rounded-2xl bg-slate-800 p-3 shadow-[0_0_15px_#22d3ee] 
        duration-700 hover:scale-105 hover:-translate-y-5 transition-all ease-in-out">
 
         <h1 className="text-3xl text-center text-white font-medium font-mono">

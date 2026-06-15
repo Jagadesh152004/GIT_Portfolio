@@ -134,12 +134,12 @@ const About = () => {
         </div>
 
         {/*this is eduaction page*/}
-        <div className="flex flex-col justify-center items-center min-h-screen w-full mt-20">
+        <div className="flex flex-col justify-center items-center min-h-screen w-full mt-35">
           <Education />
         </div>
 
         {/* Course Page */}
-        <div className="flex flex-col justify-center items-center min-h-screen w-full mt-20">
+        <div className="flex flex-col justify-center items-center min-h-screen w-full mt-35">
           <Courses />
         </div>
       </div>

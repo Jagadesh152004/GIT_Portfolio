@@ -109,14 +109,17 @@ const Education = () => {
 
         {/* Down Button */}
 
-        <div className="flex justify-center items-center mt-5 ">
+        <div className="flex justify-center items-center mt-10 ">
           
           {/* Course Button */}
           <Link 
           to="course"
           smooth={true}
           duration={800}
-          className="text-black text-xs font-[poppins] bg-cyan-400 p-3 font-semibold hover:rounded-full hover:transition-all hover:transform hover:scale-110 hover:duration-500 cursor-pointer bg-gradient-to-r hover:from-cyan-400 hover:to-blue-800 hover:ease-in-out hover:shadow-[0px_0px_10px_#06b6d4] rounded-md[0px_0px_10px_#06b6d4] rounded-xl duration-1000 transition-all animate-bounce">
+          className="text-black text-xs font-[poppins] bg-cyan-400 p-3 font-semibold hover:rounded-full 
+          hover:transition-all hover:transform hover:scale-110 hover:duration-500 cursor-pointer bg-gradient-to-r 
+          hover:from-cyan-400 hover:to-blue-800 hover:ease-in-out hover:shadow-[0px_0px_10px_#06b6d4] 
+          rounded-md[0px_0px_10px_#06b6d4] rounded-xl duration-1000 transition-all animate-bounce">
           Explore Courses 
           
           <span className="pl-2">

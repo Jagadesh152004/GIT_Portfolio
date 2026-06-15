@@ -31,8 +31,9 @@ const ServiceFooter = () => {
           Contact Me
         </Link>
 
-        <Link
-          to="/resume"
+        <a
+        href="/cv/Resume.pdf"
+        target="_blank"
           className="
       px-6 py-3
       border
@@ -47,7 +48,7 @@ const ServiceFooter = () => {
       "
         >
           View Resume
-        </Link>
+        </a>
       </div>
     </div>
   );

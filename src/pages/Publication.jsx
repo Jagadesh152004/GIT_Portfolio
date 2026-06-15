@@ -142,8 +142,7 @@ const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
 
               <div className="flex justify-center gap-4">
                 <a
-                  href="/public/reports/PROJECT REPORT.pdf"
-                  target="_blank"
+                  href="/reports/PROJECT REPORT.pdf"
                   target="_blank"
                   className="bg-gradient-to-r from-blue-700 to-cyan-500 px-3 py-4 
               rounded-lg text-sm font-semibold

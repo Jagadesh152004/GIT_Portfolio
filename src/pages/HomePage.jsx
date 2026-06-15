@@ -62,12 +62,13 @@ const HomePage = () => {
 
           <div className="flex items-center justify-center h-16 lg:justify-start mt-5">
             <div className="flex items-center justify-center w-64 gap-7">
-              <Link
-              to="/resume"
+              <a
+              href="/cv/Resume.pdf"
+              target="_blank"
                 className="bg-cyan-400 px-4 py-2 text-xs font-[poppins] font-semibold cursor-pointer bg-gradient-to-r hover:from-cyan-400  hover:to-blue-600 gap-1 flex items-center justify-center hover:transform hover:transition-all hover:scale-110 hover:rounded-full hover:duration-700 shadow-[0_0_10px_#06b6d4]"
               >
                 My Resume
-              </Link>
+              </a>
               <Link
                 to="/about"
                 className="text-cyan-400 hover:text-black border-1 hover:rounded-full px-4 py-2 text-xs font-[poppins] font-semibold cursor-pointer bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600 hover:transform hover:transition-all hover:scale-110 hover:duration-700 hover:shadow-[0_0_10px_#06b6d4] hover:border-none">

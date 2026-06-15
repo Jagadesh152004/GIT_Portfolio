@@ -32,6 +32,11 @@ const Certificate = () => {
       name:"HackRack - Java Basics",
     },
     {
+      src:"/Certificate/imresizer-hack_rank-sql_basic certificate.webp",
+      alt:"Hack Rank",
+      name:"HackRack - SQL Basics",
+    },
+    {
       src:"/Certificate/Simplilearn JAVA_Certificate.webp.webp",
       alt:"Excel",
       name:"SimpleLearn - JAVA",

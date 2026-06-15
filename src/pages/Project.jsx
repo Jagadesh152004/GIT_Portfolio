@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const Project = () => {
 
-const card = "p-5 flex flex-col justify-center items-center bg-neutral-900 transition-all duration-500 ease-in-out border-2 border-cyan-400 rounded-2xl max-w-120 shadow-[0_0_15px_#22d3ee]"   
+const card = "p-5 flex flex-col justify-center items-center bg-sky-950 transition-all duration-500 ease-in-out border-2 border-cyan-400 rounded-2xl max-w-120 shadow-[0_0_15px_#22d3ee]"   
 
 const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
 
@@ -24,7 +24,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
           <div className={card}>
           <img
           src="/Project_Images/PortFolio.webp"
-          alt=""
+          alt="portfolio"
           loading="lazy"
           className="w-110 h-60 object-cover object-center rounded-4xl"
           />
@@ -51,8 +51,8 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
                 <FaGithub className="mt-1"/> Code
               </a>
               <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
-              href=""
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl" 
+              href="http://localhost:5173/"
               target="_blank">
                 Live Demo
               </a>
@@ -93,7 +93,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
                 <FaGithub className="mt-1"/> Code
               </a>
               <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl" 
               href="https://multimedicalgpt.netlify.app"
               target="_blank">
                 Live Demo
@@ -136,12 +136,11 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
               >
                 <FaGithub className="mt-1"/> Code
               </a>
-              <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
-              href=""
-              target="_blank">
+              <s
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl"
+              >
                 Live Demo
-              </a>
+              </s>
             </div>
           </div>
 
@@ -183,12 +182,10 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
               >
                 <FaGithub className="mt-1"/> Code
               </a>
-              <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
-              href=""
-              target="_blank">
+              <s
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl">
                 Live Demo
-              </a>
+              </s>
             </div>
           </div>
 
@@ -230,7 +227,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
                 <FaGithub className="mt-1"/> Code
               </a>
               <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl" 
               href=""
               target="_blank">
                 Live Demo
@@ -273,7 +270,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
                 <FaGithub className="mt-1"/> Code
               </a>
               <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl" 
               href="https://todo-react-dhlvikyg4-jagadeshwaran-s-projects.vercel.app/"
               target="_blank">
                 Live Demo
@@ -317,7 +314,7 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
                 <FaGithub className="mt-1"/> Code
               </a>
               <a
-              className="flex justify-center gap-2 text-white text-ms bg-blue-600 w-45 p-2 rounded-2xl" 
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl" 
               href="https://jagadesh152004.github.io/Calculator/"
               target="_blank">
                 Live Demo

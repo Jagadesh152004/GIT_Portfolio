@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa6"
 import {Link} from "react-router-dom"
+import Footer from "../components/Footer"
 
 
 const Project = () => {
@@ -322,6 +323,9 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
             </div>
           </div>          
 
+    </div>
+    <div className="w-full mt-15">
+      <Footer />
     </div>
   </div>
   )

@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import Image from "../components/Image"
+import Footer from "../components/Footer"
 
 const Certificate = () => {
 
@@ -96,6 +97,9 @@ const Certificate = () => {
           ))
         }
 
+      </div>
+      <div className="w-full mt-15">
+      <Footer />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
   return (
     <div className="min-h-screen bg-gradient-to-r  from-slate-900 to-slate-900  flex flex-col justify-center items-center">
       <h1 className="text-5xl font-bold text-cyan-300 mt-10">
-        📄 Research Publication
+        📄 Publication
       </h1>
 
       <p className="text-3xl font-bold text-amber-300 mt-20">
@@ -25,9 +25,9 @@ const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
 
         {/* Container for cards */}
         <div className="flex justify-center items-center p-5 mt-10 gap-8">
-          <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-900 rounded-2xl shadow-[0_0_25px_#22d3ee]">
-            <h1 className="text-3xl font-bold text-white  border-b-5 rounded-b-xs max-w-85 p-2 ">
-              📄 Publication Details
+          <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-indigo-900 to-indigo-900 rounded-2xl shadow-[0_0_20px_#22d3ee]">
+            <h1 className="text-center text-3xl font-bold text-white border-b-5 border-y-amber-300 rounded-b-xs p-2 ">
+              Publication Details
             </h1>
             <h1 className="mt-4 text-2xl font-semibold text-amber-400">
               Title:
@@ -92,7 +92,7 @@ const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
 
           <div className="h-[680px] ml-4">
             <div className="flex flex-col gap-y-10">
-              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-900 rounded-2xl max-w-xl shadow-[0_0_25px_#22d3ee]">
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-indigo-900 to-indigo-900 rounded-2xl max-w-xl shadow-[0_0_20px_#22d3ee]">
                 <h1 className="text-yellow-300 text-2xl font-bold font-serif mb-3 border-b-4 max-w-55 rounded-b-xs pb-3">
                   📝 Description
                 </h1>
@@ -118,7 +118,7 @@ const dataDevelop = ["Python","Flask","PyTorch","JSON","REST API"]
                 </span>
               </div>
 
-              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-blue-900 to-blue-900 rounded-2xl max-w-xl text-2xl shadow-[0_0_25px_#22d3ee]">
+              <div className="flex flex-col border-3 border-cyan-400 p-3 bg-linear-to-r from-indigo-900 to-indigo-900 rounded-2xl max-w-xl text-2xl shadow-[0_0_20px_#22d3ee]">
                 <h1 className="text-yellow-300 text-2xl font-bold font-serif mb-3 border-b-4 max-w-70 rounded-b-xs pb-3 ">
                   🎯 Research Objective
                 </h1>

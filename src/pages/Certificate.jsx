@@ -27,6 +27,11 @@ const Certificate = () => {
       name:"Oracle - Cloud Infrastruture AI",
     },
     {
+      src:"/Certificate/imresizer-Hackrank-java_basic certificate.webp",
+      alt:"Hack Rank",
+      name:"HackRack - Java Basics",
+    },
+    {
       src:"/Certificate/Simplilearn JAVA_Certificate.webp.webp",
       alt:"Excel",
       name:"SimpleLearn - JAVA",

@@ -32,7 +32,7 @@ const ServiceFooter = () => {
         </Link>
 
         <a
-        href="/cv/Resume.pdf"
+        href="/cv/Jagadeshwaran Resume.pdf"
         target="_blank"
           className="
       px-6 py-3

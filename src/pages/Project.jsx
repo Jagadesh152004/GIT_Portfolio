@@ -145,6 +145,50 @@ const cardButton = "px-3 py-2 rounded-3xl bg-zinc-800 text-zinc-300"
             </div>
           </div>
 
+          {/* Course Registration */}
+
+          <div className={card}>
+              <img
+              src="/Project_Images/Course Register.png"
+              alt="Course"
+              loading="lazy"
+              className="w-110 h-60 object-cover object-center rounded-4xl"
+              />
+            <h1 className="text-start text-2xl font-semibold font-mono text-white mt-4">
+             Course Registration System 
+            </h1>
+            <p className="text-zinc-400 text-lg font-serif mt-4 max-w-md">
+              A full-stack Course Registration System that allows students to 
+              view available courses , enrolled courses and register for courses .
+            </p>
+            <div className="flex justify-center gap-4 mt-5" >
+            <span className={cardButton}>
+              React.js
+            </span>
+            <span className={cardButton}>
+              SpringBoot
+            </span>
+            <span className={cardButton}>
+              MySQL
+            </span>
+            </div>
+            <div className="flex w-100 p-2 mt-4 gap-3">
+              <a className="flex justify-center gap-2 text-white text-ms bg-zinc-700 w-45 p-2 rounded-2xl"
+              href="https://github.com/Jagadesh152004/Course-Register-System.git"
+              target="_blank" 
+              >
+                <FaGithub className="mt-1"/> Code
+              </a>
+              <a
+              href="https://course-register-system.vercel.app/"
+              target="_blank"
+              className="flex justify-center gap-2 text-white text-ms bg-blue-500 w-45 p-2 rounded-2xl"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
           {/* ChatGpt Otimiztion */}
 
           <div className={card}>

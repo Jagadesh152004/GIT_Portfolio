@@ -10,7 +10,7 @@ const HomePage = () => {
     "p-0.5 text-cyan-400 border-2 border-cyan-400 rounded-full transition-all duration-500 transform hover:bg-cyan-400 hover:text-black hover:animate-pulse hover:scale-125 shadow-[0_0_10px_#06b6d4]";
 
   return (
-    <div className="flex items-center justify-center w-full min-h-screen overflow-x-hidden bg-gradient-to-r from-slate-900 to-slate-900 bg-cover bg-center bg-no-repeat">
+    <div className="flex items-center justify-center w-full min-h-screen overflow-x-hidden bg-slate-900 bg-cover bg-center bg-no-repeat">
 
       {/* Main Container */}
       <div className="flex items-center justify-around overflow-x-hidden p-10 w-auto min-w-5xl">

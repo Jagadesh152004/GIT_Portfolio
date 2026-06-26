@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ServiceFooter = () => {
   return (
-    <div className="mt-20 py-16 text-center border-t border-cyan-400 bg-indigo-950">
+    <div className="mt-20 py-16 text-center border-t border-cyan-400 bg-blue-950">
       <h2 className="text-4xl font-bold text-cyan-400 mb-4">
         Let's Build Something Amazing Together 🚀
       </h2>
